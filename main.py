@@ -91,7 +91,7 @@ class PyriodicTableApp(QMainWindow):
 
 
 # Import Periodic Table JSON
-with open('periodic_table.json', 'r') as f:
+with open('PubChemElements_all.json', 'r') as f:
     elements = json.load(f)['elements']
 
 
